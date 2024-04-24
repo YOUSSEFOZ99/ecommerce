@@ -215,4 +215,35 @@ body {
     color: rgb(134, 134, 134);
 }
 
+/* features-store */
+#store-features {
+    box-shadow: 0 0 15px 0 #EEF0EA;
+    background-image: url(../images/bg_features.png);
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-color: #fff;
+    background-position: -10px -20px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+/* #store-features .features:not(:first-child){
+    border-right: 1px solid #EEF0EA;
+} */
+#store-features .features+.features{
+    border-right: 1px solid #EEF0EA;
+}
+
+#store-features .features h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#store-features .features img{
+    height: 40px;
+    margin-bottom: 10px;
+}
 
